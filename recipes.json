@@ -1,0 +1,149 @@
+{
+  "recipes": [
+    {
+      "product": "alcohol",
+      "reagent": "hydroxide",
+      "reagentFormula": "OH",
+      "conditions": [
+        "reflux",
+        "heat",
+        "aqueous"
+      ],
+      "reaction": "nucleophilic substitution",
+      "orderOfSteps": ["reagent","carbon", "bond", "bromine"]
+    },
+    {
+      "product": "amine",
+      "reagent": "excess ammonia",
+      "reagentFormula": "NH3",
+      "conditions": [
+        "warm",
+        "high pressure"
+      ],
+      "reaction": "nucleophilic substitution",
+      "orderOfSteps": ["reagent","carbon", "bond", "bromine"]
+    },
+    {
+      "product": "nitrile",
+      "reagent": "cyanide",
+      "reagentFormula": "CN",
+      "conditions": [
+        "reflux",
+        "heat"
+      ],
+      "reaction": "nucleophilic substitution",
+      "orderOfSteps": ["reagent","carbon", "bond", "bromine"]
+    },
+    {
+      "product": "alkene",
+      "reagent": "sodium hydroxide",
+      "reagentFormula": "OH",
+      "conditions": [
+        "hot",
+        "in ethanol"
+      ],
+      "reaction": "elimination",
+      "orderOfSteps": ["reagent","hydrogen", "bond", "bond", "bond", "bromine"]
+    }
+  ],
+  "haloalkanes": {
+    "primaryHalides": [
+      {
+        "name": "Bromomethane",
+        "structure": [
+          "carbon",
+          "bromine",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen"
+        ],
+        "formula": "CH3Br",
+        "carbons": "1",
+        "hydrogens": "3",
+        "bromines": "1"
+      },
+      {
+        "name": "Bromoethane",
+        "structure": [
+          "carbon",
+          "bromine",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen"
+        ],
+        "formula": "C2H5Br",
+        "carbons": "2",
+        "hydrogens": "5",
+        "bromines": "1"
+      },
+      {
+        "name": "1-Bromopropane",
+        "structure": [
+          "carbon",
+          "bromine",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen"
+        ],
+        "formula": "C3H7Br",
+        "carbons": "3",
+        "hydrogens": "7",
+        "bromines": "1"
+      }
+    ],
+    "secondaryHalides": [
+      {
+        "name": "2-Bromopropane",
+        "structure": [
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "bromine",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen"
+        ],
+        "formula": "C3H7Br",
+        "carbons": "3",
+        "hydrogens": "7",
+        "bromines": "1"
+      },
+      {
+        "name": "2-Bromobutane",
+        "structure": [
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "bromine",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "carbon",
+          "hydrogen",
+          "hydrogen",
+          "hydrogen"
+        ],
+        "formula": "C4H9Br",
+        "carbons": "4",
+        "hydrogens": "9",
+        "bromines": "1"
+      }
+    ]
+  }
+}
